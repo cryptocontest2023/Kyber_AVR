@@ -1,7 +1,7 @@
 # Optimized Kyber on AVR Sensor Nodes
 
 ## Introduction
-This code is a Crystals-Kyber for 8-bit AVR environment, which submitted to cryptocontest 2023(Title : “Signed LUT-based NTT: Faster Kyber on 8-bit AVR-based Sensor Nodes”). In the future, the goal of this project is to implement Post-Quantum Cryptography in constrained devices such as 8-bit AVR and 16-bit MSP430. Ultimately, I would like to design a PQC library for an AVR environment with minimal stack usage. 
+This code is a Crystals-Kyber for 8-bit AVR environment, which submitted to cryptocontest 2023(Title : " **Optimized Kyber on AVR Sensor Nodes** ”). In the future, the goal of this project is to implement Post-Quantum Cryptography in constrained devices such as 8-bit AVR and 16-bit MSP430. Ultimately, I would like to design a PQC library for an AVR environment with minimal stack usage. 
 
 ## What This code is trying to achieve
 * It aims to properly port the implementation of [PQM4](https://github.com/mupq/pqm4) to the AVR environment. This code is written in a way that is easy to read and understand.
