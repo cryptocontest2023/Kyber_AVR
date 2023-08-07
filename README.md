@@ -6,7 +6,7 @@ This code is a Crystals-Kyber for 8-bit AVR environment, which submitted to cryp
 ## What This code is trying to achieve
 * It aims to properly port the implementation of [PQM4](https://github.com/mupq/pqm4) to the AVR environment. This code is written in a way that is easy to read and understand.
 
-* It aims to apply as much as possible all the latest optimization implementation techniques for Crystals-Kyber. Additionally, assembly code for NTT for AVR environment is provided. Unfortunately, the merge technique for NTT implementation could not be applied due to the limitation of general-purpose registers. Perhaps this will become a new research topic in the future.
+* We design the optimal modular arithmetic to implement Kyber in an 8-bit AVR environment. In our paper, we present  Signed LUT-based arithmetic for Kyber suitable for 8-bit AVR environment. In addition, we aims to apply as much as possible all the latest optimization implementation techniques for Crystals-Kyber. Moreover, assembly code for NTT for AVR environment is provided. Unfortunately, the merge technique for NTT implementation could not be applied due to the limitation of general-purpose registers. Perhaps this will become a new research topic in the future.
 
 ## SetUp/Code
 The description of **SetUp** and **Code** is as follows:
